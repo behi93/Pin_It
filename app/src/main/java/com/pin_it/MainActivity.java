@@ -46,7 +46,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     boolean mLocationPermissionGranted;
     private static final int PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1, DEFAULT_ZOOM = 15, M_MAX_ENTRIES = 5;
     public static final String KEY_LOCATION = "location", KEY_CAMERA_POSITION = "camera_position",
-            TAG = MainActivity.class.getSimpleName();
+
+    TAG = MainActivity.class.getSimpleName();
 
     String[] mLikelyPlaceNames;
     LatLng[] mLikelyPlaceLatLngs;
